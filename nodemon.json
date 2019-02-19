@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "src/server"
+  ],
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "exec": "babel-node src/server/index.js",
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": 3000,
+    "MONGODB_HOST": "mongodb://localhost:27017/database"
+  }
+}
