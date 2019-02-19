@@ -10,9 +10,5 @@
 ### Dependencies
 `npm`
 
-`mongoDB`
-
-### Author note:
-* I think that the backend part is ok
-* First point of the frontent part need some more css and finish testing
-* Second point of the frontent part is about to start
+### TODO:
+* Persist redux state on localStorage
